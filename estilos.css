@@ -1,0 +1,347 @@
+*{
+    padding:0;
+    margin: 0;
+}
+h1{
+    font-size: 45px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+color: blanchedalmond;
+}
+.header{
+    background-color: rgb(4, 88, 4);
+    height: 100px;
+    width: 100%;
+}
+.titulo{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+}
+.listas{
+    float: right;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+ul li a{
+    text-decoration: none;
+    padding: 10px;
+    color: blanchedalmond;
+}
+li{
+    display: inline-block;
+}
+main{
+    background-image: url(soldador.jpg);
+    background-size: cover;
+    height: calc(100vh-80px);
+    width: 100%;
+    background-position: center;
+    display: flex;
+    flex-direction: row;
+}
+.texto{
+    color:#fff;
+    font-size: 45px;
+    flex-wrap: wrap;
+    margin-left: 20px;
+}
+h2{
+    color: blanchedalmond;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+.uno{
+    width: 350px;
+    height: 350px;
+    float: left;
+    border-radius: 25px;
+    
+}
+.dos{
+    width: 350px;
+    height: 350px;
+    float: left;
+    border-radius: 25px;
+}
+.tres{
+    width: 350px;
+    height: 350px;
+    float: left;
+    border-radius: 25px;
+}
+.cuatro{
+    width: 350px;
+    height: 350px;
+    float: left;
+    border-radius: 25px;
+}
+.cinco{
+    width: 350px;
+    height: 350px;
+    float: left;
+    border-radius: 25px;
+}
+.seis{
+    width: 350px;
+    height: 350px;
+    float: left;
+    border-radius: 25px;
+}
+.fotos{
+    width: 50%;
+    margin: 20px;
+}
+.segundo{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 80px;
+    text-decoration: underline;
+    text-align: center;
+}
+.descripcion{
+    margin-left: 25px;
+    background-color: black;
+    background-size: cover;
+}
+footer{
+    background-color: green;
+    width: 100%;
+    height: 390px;
+}
+.foot{
+text-align: center;
+}
+.mapa{
+    margin-left: 40%;
+}
+.redes{
+    text-align: center;
+    font-size: 50px;
+    color: blanchedalmond;
+}
+.subir{
+    height: 50px;
+    width: 50px;
+    background-color: blanchedalmond;
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    text-align: center;
+    font-size: 20px;
+    line-height: 40px;
+    color: black;
+    border: 3px; 
+    border-radius: 50%;
+    box-shadow: 0 0 5px #fff;
+}
+html{
+    scroll-behavior: smooth;
+}
+.title{
+    text-align: center;
+    position:static;
+}
+.form-contact{
+    background-color: blanchedalmond;
+    width: 400px;
+    font-size: 20px;
+    margin-top: 200px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 7px 13px 37px rgba(0, 0, 0, .8);
+}
+span{
+    background-color:green;
+    color: blanchedalmond;
+    font-size: 100px;
+    text-align: center;
+    display: block;
+}
+.contact label, .contact input, .contact textarea{
+display: flexbox;
+width: 100%;
+margin-bottom: 10px;
+}
+.contact textarea{
+    min-height: 100px;
+}
+input[type='submit']{
+background-color: green;
+font-size: 20px;
+}
+.fondo{
+    background-image: url(solda2.jpg);
+    background-size: cover;
+    height: calc(100vh-80px);
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.titulado{
+    font-size: 50px;
+    margin-left: 35%;
+}
+.abajo{
+    margin-top: 100%;
+}
+.principio h1{
+    text-align: center;
+    text-transform: uppercase;
+    margin-left: 200px;
+}
+.muestra{
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+grid-template-columns: repeat(2, 1fr);
+margin-left: 20px;
+padding: 20px;
+grid-gap: 10px;
+}
+.corte{
+    font-size: 50px;
+    color:blanchedalmond;    
+   
+}
+.grabado{
+    font-size: 50px;
+    color:blanchedalmond;
+ 
+}
+.strass{
+    font-size: 50px;
+    color:blanchedalmond;
+    
+}
+.escala{
+    font-size: 50px;
+    color:blanchedalmond;
+  
+}
+.troquel{font-size: 50px;
+    color:blanchedalmond;
+ 
+}
+.moldes{
+    font-size: 50px;
+    color:blanchedalmond;
+    
+}
+.muestra corte grabado strass moldes escala troquel{
+    padding: 10px;
+    padding-bottom: 10px;
+    margin: 10px;
+}
+.contenedor{
+display: grid;
+grid-template-columns: repeat(4, 1fr);
+grid-auto-rows: 250px;
+padding: 20px;
+grid-gap: 10px;
+text-align: center;
+}
+.img{
+width: 100%;
+height: 100%;
+object-fit: cover;
+transition: all 300ms;
+border-radius: 25px;
+cursor: pointer;
+
+}
+.contenedor img:hover{
+    transform: scale(1.15);
+
+} 
+.title{
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: gray;
+    text-decoration: underline;
+    text-align: center;
+}
+.parrafos{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    color:grey;
+    margin-left: 20px;
+}
+@media only screen and (min-width: 320px) and (max-width: 479px){
+    .contenedor{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media only screen and (min-width: 480px) and (max-width: 599px){
+    .contenedor{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media only screen and (min-width:600px) and (max-width:767px){
+    .contenedor{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 1023px){
+    .contenedor{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+@media only screen and (min-width: 1024px){
+    .contenedor{
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+@media only screen and (min-width: 480px) and (max-width: 599px){
+    .fotos{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media only screen and (min-width:600px) and (max-width:767px){
+    .fotos{
+        display: grid;
+        grid-template-columns: 2fr;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 1023px){
+    .fotos{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+@media only screen and (min-width: 1024px){
+    .fotos{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 479px){
+    .muestra{
+        display: grid;
+        grid-template-columns: 4fr;
+    }
+}
+@media only screen and (min-width: 480px) and (max-width: 599px){
+    .muestra{
+        display: grid;
+        grid-template-columns: 2fr;
+        grid-template-rows: 1fr;
+    }
+}
+@media only screen and (min-width:600px) and (max-width:767px){
+    .muestra{
+        display: grid;
+        grid-template-columns: 2fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 1023px){
+    .muestra{
+        display: grid;
+        grid-template-columns: 3fr;
+    }
+}
